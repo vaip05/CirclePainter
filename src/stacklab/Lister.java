@@ -63,7 +63,6 @@ public class Lister {
     }
 	
 	public static void main(String[] args) {
-        //replace with a directory of your own
         String directory = "/Users/vaisp/Downloads/VaishnaviPanchal- unofficial transcript";
 		File dir = new File(directory);
 		Lister l = new Lister(dir,true);
